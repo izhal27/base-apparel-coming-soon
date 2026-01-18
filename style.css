@@ -135,14 +135,6 @@ input:focus {
 }
 
 @media screen and (min-width: 768px) {
-  body {
-    min-height: 100vh;
-    background: url("./images/bg-pattern-desktop.svg");
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-size: 65% 80%;
-  }
-
   main {
     display: grid;
     grid-template-columns: 1fr auto;
